@@ -36,12 +36,12 @@ color: #ccccccff;
 
 #descaula img{
 opacity: 0.7;
-transition: 0.3s;
+transition: 0.2s;
 }
 
 #descaula img:hover{
 opacity: 1.0;
-transition: 0.3s;
+transition: 0.2s;
 }
 
 #desccurso{
