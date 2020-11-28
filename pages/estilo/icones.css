@@ -1,0 +1,31 @@
+livro{
+background-image: url('../../img/livro.png');
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+margin-right: 10px;
+}
+
+exercicio{
+background-image: url('../../img/lapis.png');
+background-repeat: no-repeat;
+padding-left: 30px;
+background-size:30px;
+margin-right: 10px;
+}
+	
+certificado{
+background-image: url('../../img/certificado.png');
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+margin-right: 10px;
+}
+	
+play{
+background-image: url('../../img/play.png');
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+margin-right: 10px;
+}

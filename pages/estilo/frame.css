@@ -1,0 +1,83 @@
+@import url('http://fonts.cdnfonts.com/css/geometos');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+background-color: #1a1a1aff;
+padding: 50px;
+line-height: 1.5; 
+user-drag: none; 
+user-select: none;
+}
+
+#nomecurso{
+font-size: 30px;
+font-family: 'Geometos', sans-serif;
+color: #ccccccff;
+}
+
+#nomeaula{
+font-size: 30px;
+font-family: 'Geometos', sans-serif;
+color: #ccccccff;
+}
+
+#capacurso img{
+width: 200px;
+margin-right: 20px;
+}
+
+#descaula{
+margin-left: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+text-align: justify;
+color: #ccccccff;
+}
+
+#descaula img{
+opacity: 0.7;
+transition: 0.3s;
+}
+
+#descaula img:hover{
+opacity: 1.0;
+transition: 0.3s;
+}
+
+#desccurso{
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+text-align: justify;
+color: #ccccccff;
+}
+
+#aulas{
+font-size: 20px;
+font-family: 'Geometos', sans-serif;
+color: #ccccccff;
+}
+
+#aulas a {
+color: #00ff66ff;
+text-decoration: none;
+}
+
+#aulas a:visited {
+color: #ffe680ff;
+}
+
+#g1{
+display: flex;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#g2{
+display: column;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+#youtubehere{ 
+border-radius: 5px 5px 5px 5px;
+}
