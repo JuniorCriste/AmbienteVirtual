@@ -81,3 +81,28 @@ padding-bottom: 50px;
 #youtubehere{ 
 border-radius: 5px 5px 5px 5px;
 }
+
+#preencher{
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+color: #ccccccff;
+width: 300px;
+text-align: justify;
+}
+
+#preencher a{
+text-decoration: none;
+color: #ccccccff;
+}
+
+#titulof{
+font-size: 30px;
+font-family: 'Geometos', sans-serif;
+color: #ccccccff;
+text-align: justify;
+width: 350px;
+}
+
+body{
+transition: 0.5s;
+}
