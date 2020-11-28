@@ -1,0 +1,62 @@
+@import url('http://fonts.cdnfonts.com/css/geometos');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+background-color: #d7e3f4ff;
+padding: 50px;
+line-height: 1.5; 
+user-drag: none; 
+user-select: none;
+margin: 0;
+padding: 0;
+}
+
+a {
+color: #0b172b;;
+text-decoration: none;
+}
+
+#g1{
+font-size: 13px;
+font-family: 'Geometos', sans-serif;
+color: #0b172b;
+height: 8%;
+}
+
+#g2{
+height: 75%;
+}
+
+#g3{
+text-align: right;
+font-family: 'Montserrat', sans-serif;
+font-size: 13px;
+color: #0b172b;
+}
+
+#cabecalho{
+text-align: right;
+margin-top: -30px;
+margin-right: 5%;
+}
+
+#navegar{
+width: 90%;
+border: none;
+overflow:hidden;
+overflow-x:hidden;
+overflow-y:hidden;
+height:92%;
+width:100%;
+position:absolute;
+top:8%;
+left:0px;
+right:0px;
+bottom:0px
+}
+
+#logo img{
+height: 75%;
+margin-top: 5px;
+margin-left: 5%;
+}
