@@ -18,16 +18,16 @@ No curso "Técnicas de Filmagem e Enquadramentos" você aprende de forma rápida
 </div>
 </div>
 <div id="aulas">
-    <livro> </livro> <a href="01.htm">Dá pra usar celular como câmera? <play></play> </a><br />
-    <livro> </livro> <a href="02.htm">Gravação Externa <play></play> </a><br />
-    <livro> </livro> <a href="03.htm">Plano Geral, Grande Geral e Plano Americano <play></play> </a><br />
-    <livro> </livro> <a href="04.htm">Plano Sequência <play></play> </a><br />
-    <livro> </livro> <a href="05.htm">Plano Zoom IN e Zoom OUT <play></play> </a><br />
-    <livro> </livro> <a href="06.htm">Plongeé e Contra Plongée <play></play> </a><br />
-    <livro> </livro> <a href="07.htm">Tilt e Panoramica <play></play> </a><br />
-    <livro> </livro> <a href="08.htm">Plano Subjetivo e Over the Shoulder <play></play> </a><br />
-    <livro> </livro> <a href="09.htm">Plano Close UP e Big Close UP <play></play> </a><br />
-    <exercicio> </exercicio> <a href="prova.htm">Atividade de conclusão <play></play> </a><br />
+    <livro> </livro> <a href="01.php">Dá pra usar celular como câmera? <play></play> </a><br />
+    <livro> </livro> <a href="02.php">Gravação Externa <play></play> </a><br />
+    <livro> </livro> <a href="03.php">Plano Geral, Grande Geral e Plano Americano <play></play> </a><br />
+    <livro> </livro> <a href="04.php">Plano Sequência <play></play> </a><br />
+    <livro> </livro> <a href="05.php">Plano Zoom IN e Zoom OUT <play></play> </a><br />
+    <livro> </livro> <a href="06.php">Plongeé e Contra Plongée <play></play> </a><br />
+    <livro> </livro> <a href="07.php">Tilt e Panoramica <play></play> </a><br />
+    <livro> </livro> <a href="08.php">Plano Subjetivo e Over the Shoulder <play></play> </a><br />
+    <livro> </livro> <a href="09.php">Plano Close UP e Big Close UP <play></play> </a><br />
+    <exercicio> </exercicio> <a href="prova.php">Atividade de conclusão <play></play> </a><br />
     <certificado> </certificado> Emitir seu certificado! (Liberado apenas após concluir a atividade)
 </div>
 
