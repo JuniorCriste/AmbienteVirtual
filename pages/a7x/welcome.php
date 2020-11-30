@@ -1,5 +1,9 @@
-
-<html>
+<?php
+session_start();
+include('verificaaut.php');
+?>
+<DOCTYPE html>
+<html lang="pt-br">
 <head>
 <title> Ambiente Virtual - Técnicas de Filmagem e Enquadramento</title>
 <link href="../estilo/frame.css" rel="stylesheet">
@@ -30,5 +34,6 @@ No curso "Técnicas de Filmagem e Enquadramentos" você aprende de forma rápida
     <exercicio> </exercicio> <a href="prova.htm">Atividade de conclusão <play></play> </a><br />
     <certificado> </certificado> Emitir seu certificado! (Liberado apenas após concluir a atividade)
 </div>
+
 </body>
 </html>

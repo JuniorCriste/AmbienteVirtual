@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <DOCTYPE html>
 <html lang="pt-br">
 <link href="../estilo/frame.css" rel="stylesheet">
@@ -8,20 +5,13 @@ session_start();
 <center>
 <div id="titulof"> 😍 Acessar:<br/></div>
 <div id="forms">
-<form method="POST" action="acessar.php">
+<form method="POST" action="logar.php">
 <div id="preencher">
-
-<?php
-    if(isset($_SESSION['recado'])){
-    echo $_SESSION['recado'];
-    unset($_SESSION['recado']);
-    }
-?>
 
 <div id="campos"> 
     <div class="campo">
     E-mail<br />
-    <input type="email" name="eMail" placeholder="seuemail@mail.com" required="required">
+    <input type="email" name="eMail" placeholder="seuemail@mail.com" required="required" autofocus="">
     </div>
     
    <div class="campo">

@@ -19,7 +19,7 @@ $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 
 if(mysqli_insert_id($conn)) {
-    $_SESSION['recado'] = "<p style='color: green;'>Cadastrado com sucesso! Agora Faça seu login...</p>";
+    $_SESSION['recado'] = "<p style='color: green;'>Cadastrado! Agora Faça seu login...</p>";
     header("Location: login.php");
 }
 
