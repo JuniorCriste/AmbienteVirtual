@@ -1,7 +1,3 @@
-<?php
-session_start();
-include('verificaaut.php');
-?>
 <DOCTYPE html>
 <html lang="pt-br">
 <head>

@@ -1,5 +1,9 @@
-
-<html>
+<?php
+session_start();
+include('verificaaut.php');
+?>
+<DOCTYPE html>
+<html lang="pt-br">
 <head>
 <title> Ambiente Virtual - Dá pra usar celular como câmera?</title>
 <link href="../estilo/frame.css" rel="stylesheet">
@@ -19,7 +23,7 @@
 <div id="descaula">
 <a href="welcome.php">
 <img src="../../img/anterior.png"></a> 
-<a href="02.htm">
+<a href="02.php">
 <img src="../../img/proximo.png"> </a> <br/>
 Nessa aula eu falo sobre gravação e equipamentos necessários. Até onde é possível e aceitável o uso de celular como câmera.
 </div>

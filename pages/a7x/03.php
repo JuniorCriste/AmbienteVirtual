@@ -1,5 +1,9 @@
-
-<html>
+<?php
+session_start();
+include('verificaaut.php');
+?>
+<DOCTYPE html>
+<html lang="pt-br">
 <head>
 <title> Ambiente Virtual</title>
 <link href="../estilo/frame.css" rel="stylesheet">
@@ -8,20 +12,20 @@
 </head>
 
 <body>
-<div id="nomeaula">Plano Close UP e Big Close</div>
+<div id="nomeaula">Plano Geral, Grande Geral e Plano Americano</div>
 <div id="g1">
 <div id="videoaula">
 <video id="youtubehere" controls="controls" width="750" height="405">
-<source src="https://drive.google.com/uc?export=download&id=1WxEi6HDuBUf6a2q6wXB4uW535S9IkdPS" type='video/mp4'/>
+<source src="https://drive.google.com/uc?export=download&id=1uMjEik-m7SfHWLYRdQGGfcK6gH4-stjo" type='video/mp4'/>
 </video>
 
 </div>
 <div id="descaula">
-<a href="08.htm">
+<a href="02.php">
 <img src="../../img/anterior.png"></a> 
-<a href="prova.htm">
+<a href="04.php">
 <img src="../../img/proximo.png"> </a><br />
-Cinema, novelas e especialmente documentários querem e devem passar emoções. Mas para deixar uma cena mais tocante existem alguns planos, como o closeup e big closeup.
+Conheça agora o plano geral, plano grande geral e o cinematográfico plano americano.
 </div>
 </div>
 </body>
