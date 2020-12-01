@@ -154,6 +154,24 @@ background-color: #39ad98;
 transform: translateX(50%);
 }
 
+#dados{
+margin-left: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+text-align: justify;
+color: white;
+}
+
+#dados a {
+text-decoration: none;
+color: white;
+}
+
+#dados a:visited {
+text-decoration: none;
+color: white;
+}
+
 body{
 transition: 0.5s;
 }
