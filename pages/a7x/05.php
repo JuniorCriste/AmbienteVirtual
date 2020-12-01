@@ -15,7 +15,7 @@ include('verificaaut.php');
 <div id="nomeaula">Plano Zoom IN e Zoom OUT</div>
 <div id="g1">
 <div id="videoaula">
-<video id="youtubehere" controls="controls" width="750" height="405">
+<video id="youtubehere" controls="controls" width="720" height="405">
 <source src="https://drive.google.com/uc?export=download&id=17DMgWgeIisAymFUiwuqvC5-xNsr8KE6A" type='video/mp4'/>
 </video>
 

@@ -15,7 +15,7 @@ include('verificaaut.php');
 <div id="nomeaula">Plano Subjetivo e Over the Shoulder</div>
 <div id="g1">
 <div id="videoaula">
-<video id="youtubehere" controls="controls" width="750" height="405">
+<video id="youtubehere" controls="controls" width="720" height="405">
 <source src="https://drive.google.com/uc?export=download&id=1IAS7BHJAgb0Q1rOnjgyK_BeEf6pI_gC-" type='video/mp4'/>
 </video>
 

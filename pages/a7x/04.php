@@ -15,7 +15,7 @@ include('verificaaut.php');
 <div id="nomeaula">Plano Sequência</div>
 <div id="g1">
 <div id="videoaula">
-<video id="youtubehere" controls="controls" width="750" height="405">
+<video id="youtubehere" controls="controls" width="720" height="405">
 <source src="https://drive.google.com/uc?export=download&id=14ZU3V2M8KJWq8R0VagS5qCIraSPRLCvs" type='video/mp4'/>
 </video>
 

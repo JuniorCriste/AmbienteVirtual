@@ -15,7 +15,7 @@ include('verificaaut.php');
 <div id="nomeaula">Plongeé e Contra Plongée</div>
 <div id="g1">
 <div id="videoaula">
-<video id="youtubehere" controls="controls" width="750" height="405">
+<video id="youtubehere" controls="controls" width="720" height="405">
 <source src="https://drive.google.com/uc?export=download&id=1-ERhg4bgbaQdYuSNIdaHBrfm0z38UlLS" type='video/mp4'/>
 </video>
 

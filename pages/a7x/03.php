@@ -15,7 +15,7 @@ include('verificaaut.php');
 <div id="nomeaula">Plano Geral, Grande Geral e Plano Americano</div>
 <div id="g1">
 <div id="videoaula">
-<video id="youtubehere" controls="controls" width="750" height="405">
+<video id="youtubehere" controls="controls" width="720" height="405">
 <source src="https://drive.google.com/uc?export=download&id=1uMjEik-m7SfHWLYRdQGGfcK6gH4-stjo" type='video/mp4'/>
 </video>
 
