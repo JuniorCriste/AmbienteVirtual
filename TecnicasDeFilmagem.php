@@ -20,8 +20,8 @@ include('verificaaut.php');
     </div>
 
     <div id="cabecalho">
-    <a href="https://www.informaticode.com.br/sobre" target=_"blank">Sobre</a>  &nbsp;<a href="https://informaticode.store/linksdabio" target=_"blank">Social</a>  &nbsp;<a href="https://api.whatsapp.com/send?phone=5527988334621&text=Ol%c3%a1%20Preciso%20de%20suporte" target=_"blank">Suporte-me! </a>
-<br /> 
+    <a href="pages/global/ajuda.php#p1"  target="ead">Sobre</a>  &nbsp;<a href="https://informaticode.store/linksdabio" target=_"blank">Social</a>  &nbsp;<a href="pages/global/ajuda.php"  target="ead">Ajuda </a>
+<div class="userarea">
 
 
     <?php
@@ -32,6 +32,7 @@ include('verificaaut.php');
     }
 ?>
 
+</div>
     </div>
 </div>
 <div id="g2">
