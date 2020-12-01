@@ -14,15 +14,32 @@ echo "Email é: $eMail <br>";
 echo "Celular é: $Celular <br>";
 echo "Senha é: $Senha <br>";
 
-$result_usuario = "INSERT INTO tbt_user (Nome, Sobrenome, eMail, Celular, Senha, created) VALUES ('$Nome', '$Sobrenome', '$eMail', '$Celular', '$Senha', NOW())";
-$resultado_usuario = mysqli_query($conn, $result_usuario);
 
 
-if(mysqli_insert_id($conn)) {
-    $_SESSION['recado'] = "<p style='color: green;'>Cadastrado! Agora Faça seu login...</p>";
-    header("Location: login.php");
+
+
+
+$ExisteEmail = "select eMail from tbt_user where eMail = '{$eMail}'";
+
+$resultEE = mysqli_query($conn, $ExisteEmail);
+
+$rowEE = mysqli_num_rows($resultEE);
+
+$result_usuario = "INSERT INTO tbt_user (Nome, Sobrenome, eMail, Celular, Senha, created, Certificado, Conclusao) VALUES ('$Nome', '$Sobrenome', '$eMail', '$Celular', '$Senha', NOW(), '0', '0')";
+
+
+
+
+
+
+if($rowEE == 0) {
+    $resultado_usuario = mysqli_query($conn, $result_usuario);
+    $_SESSION['recado'] = "<p style='color: green;'>Cadastrado! Agora Faça seu login...</p>";    
+    header('Location: login.php'); 
+
+} else {
+    $_SESSION['erroe'] = "<p style='color: red;'>Esse email já foi cadastrado! Use outro ou entre em contato com o suporte...</p>";    
+    header('Location: cadastro.php'); 
+
 }
-
-
-
 

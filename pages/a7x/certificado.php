@@ -14,22 +14,24 @@ include('verificaaut.php');
 <body>
 <center>
 <div id="preview">
-<div id="texto">
+
+<?php
+echo "<div id='texto'>
 <center>
-<div class="titucert">Certificado</div>
+<div class='titucert'>Certificado</div>
 Certificamos que o aluno<br />
-    php <br/>
+" . $_SESSION['Nome'] . " " .$_SESSION['Sobrenome'] . "<br/>
 concluiu com aproveitamento positivo<br />
 <b>Técnicas de Filmagem e Enquadramento</b> <br />
 Na data <br />
     php
 </center>
 </div>
-<div id="cod">
+<div id='cod'>
 Registro: php<br/>
 Verificação: informaticode.store/valida
-<br /><br />
-
+<br /><br />"
+?>
 
 <center>
 <button id="btGerarPDF">Salvar em PDF</button>

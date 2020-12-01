@@ -1,4 +1,8 @@
-<html>
+<?php	
+session_start();	
+?>
+<DOCTYPE html>
+<html lang="pt-br">
 <link href="../estilo/frame.css" rel="stylesheet">
 <meta charset="utf-8">
 <center>
@@ -7,6 +11,15 @@
 
 <form method="POST" action="newcad.php">
 <div id="preencher">
+
+<?php	
+    if(isset($_SESSION['erroe'])){	
+    echo $_SESSION['erroe'];	
+    unset($_SESSION['erroe']);	
+    }	
+
+?>	
+
 <div id="campos">
     <div class="campo">
     Nome<br />

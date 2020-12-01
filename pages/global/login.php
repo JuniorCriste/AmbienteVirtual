@@ -1,3 +1,6 @@
+<?php	
+session_start();	
+?>
 <DOCTYPE html>
 <html lang="pt-br">
 <link href="../estilo/frame.css" rel="stylesheet">
@@ -7,6 +10,14 @@
 <div id="forms">
 <form method="POST" action="logar.php">
 <div id="preencher">
+
+<?php	
+    if(isset($_SESSION['recado'])){	
+    echo $_SESSION['recado'];	
+    unset($_SESSION['recado']);	
+    }	
+
+?>	
 
 <div id="campos"> 
     <div class="campo">
@@ -24,7 +35,7 @@
 <input type="submit" value="     Acessar     "> 
 <br />
 <br />
-<a href="newcad.htm"> <p style="font-size:15px;">Não tenho conta, <b>Criar uma</b>!</a>
+<a href="cadastro.php"> <p style="font-size:15px;">Não tenho conta, <b>Criar uma</b>!</a>
 </div>
 </form>
 </div>
