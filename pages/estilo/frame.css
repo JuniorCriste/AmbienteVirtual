@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/geometos');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 body{
 background-color: #1a1a1aff;
@@ -101,6 +102,56 @@ font-family: 'Geometos', sans-serif;
 color: #ccccccff;
 text-align: justify;
 width: 350px;
+}
+
+#texto{
+font-family: 'Castoro', serif;
+font-size: 30px;
+color: black;
+position: fixed;
+top: 130px;
+left: 0px;
+z-index: 2;
+width: 1018px;
+text-align: center;
+}
+
+#backcert{
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: 1;
+}
+
+.titucert{
+font-size: 180%;
+}
+
+#cod{
+color: #ffffff;
+font-size: 80%;
+text-align: left;
+position: fixed;
+top: 680px;
+left: 5px;
+z-index: 3;
+text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#preview{
+width: 1018px;
+height: 800px;
+transform: scale(0.6);
+top: 50px;
+left: 0px;
+}
+
+#btGerarPDF{
+font-family: 'Montserrat', sans-serif;
+width: 500px;
+font-size: 30px;
+background-color: #39ad98; 
+transform: translateX(50%);
 }
 
 body{
