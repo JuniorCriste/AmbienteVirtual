@@ -16,7 +16,7 @@ include('verificaaut.php');
 <div id="g1">
 <div id="videoaula">
 
-<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Interface" width="720" height="405" src="https://www.youtube-nocookie.com/embed/Xs_SmwSIZNg?modestbranding=1&amp;autoplay=false&amp;rel=0&amp;iv_load_policy=3&amp;enablejsapi=1&amp;"></iframe>
+<iframe id="youtubehere" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Interface" width="720" height="405" src="https://www.youtube-nocookie.com/embed/Xs_SmwSIZNg?modestbranding=1&amp;autoplay=false&amp;rel=0&amp;iv_load_policy=3&amp;enablejsapi=1&amp;"></iframe>
 
 </div>
 <div id="descaula">

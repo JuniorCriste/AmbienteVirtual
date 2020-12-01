@@ -27,7 +27,11 @@ No curso "Técnicas de Filmagem e Enquadramentos" você aprende de forma rápida
     <livro> </livro> <a href="07.php">Tilt e Panoramica <play></play> </a><br />
     <livro> </livro> <a href="08.php">Plano Subjetivo e Over the Shoulder <play></play> </a><br />
     <livro> </livro> <a href="09.php">Plano Close UP e Big Close UP <play></play> </a><br />
-    <exercicio> </exercicio> <a href="prova.php">Atividade de conclusão <play></play> </a><br />
+    <livrob> </livrob> <a href="11.php">BÔNUS: Ferramentas Gratuitas Para Produção!<play></play> </a><br />
+    <livrob> </livrob> <a href="12.php">BÔNUS: Gravação e Remoção de Ruídos<play></play> </a><br />
+    <livrob> </livrob> <a href="13.php">BÔNUS: Edição de Vídeo Completa<play></play> </a><br />
+    <livrob> </livrob> <a href="14.php">BÔNUS: Censura Automática no Vídeo<play></play> </a><br />
+    <exercicio> </exercicio> <a href="teste.php">Atividade de conclusão <play></play> </a><br />
     <certificado> </certificado> Emitir seu certificado! (Liberado apenas após concluir a atividade)
 </div>
 

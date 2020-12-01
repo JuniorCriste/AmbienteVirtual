@@ -6,6 +6,14 @@ background-repeat: no-repeat;
 margin-right: 10px;
 }
 
+livrob{
+background-image: url('../../img/livrob.png');
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+margin-right: 10px;
+}
+
 exercicio{
 background-image: url('../../img/lapis.png');
 background-repeat: no-repeat;
