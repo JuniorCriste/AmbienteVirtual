@@ -63,3 +63,27 @@ height: 75%;
 margin-top: 5px;
 margin-left: 5%;
 }
+
+
+
+
+@media only screen and (max-width: 415px) {
+
+    .userarea{
+    font-size: 90%;
+    }
+
+    #g1{
+    font-size: 9px;
+    }
+
+    #cabecalho{
+    margin-top: -20px;
+    }
+
+    #logo img{
+    height: 60%;
+    margin-top: 6px;
+    }
+
+}

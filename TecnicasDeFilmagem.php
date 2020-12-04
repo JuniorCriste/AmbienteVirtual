@@ -9,6 +9,7 @@ include('verificaaut.php');
 <title>Ambiente Virtual - Técnicas de Filmagem e Enquadramento</title>
 <link href="pages/estilo/av.css" rel="stylesheet">
 <meta charset="UTF-8">
+<meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'/>
 <link rel="shortcut icon" type="image/png" href="https://informaticode.store/imgs/INformaticodeSN.png"/>
 
 </head>

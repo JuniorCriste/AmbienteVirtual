@@ -37,3 +37,32 @@ background-size:30px;
 background-repeat: no-repeat;
 margin-right: 10px;
 }
+
+
+
+@media only screen and (max-width: 415px) {
+    livro{
+    background-size: 60%;
+    margin-right: 2px;
+    }
+
+    livrob{
+    background-size: 60%;
+    margin-right: 2px;
+    }
+
+    exercicio{
+    background-size: 60%;
+    margin-right: 2px;
+    }
+
+    certificado{
+    background-size: 60%;
+    margin-right: 2px;
+    }
+
+    play{
+    background-size: 60%;
+    }
+
+}

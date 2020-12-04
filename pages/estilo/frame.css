@@ -8,6 +8,7 @@ padding: 50px;
 line-height: 1.5; 
 user-drag: none; 
 user-select: none;
+transition: 0.5s;
 }
 
 #nomecurso{
@@ -58,7 +59,7 @@ font-family: 'Montserrat', sans-serif;
 color: white;
 background-color: #242424;
 margin-top: 30px;
-margin-top: 30px;
+margin-bottom: 30px;
 border-radius: 15px;
 padding: 20px;
 }
@@ -211,6 +212,85 @@ text-decoration: none;
 color: #ccccccff;
 }
 
-body{
-transition: 0.5s;
+
+
+
+@media only screen and (max-width: 415px) {
+    body{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;  
+    }
+
+    #capacurso img{ 
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    #descaula img{ 
+    width: 45%;
+    margin-bottom: 10px;
+    }
+
+    #descaula{ 
+    font-size: 11px;
+    padding-right: 17px;
+    }
+
+    #g1{    
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    #desccurso{
+    font-size: 13px;
+    }
+
+    #aulas{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    }
+
+    #preencher{
+    width: 80%;
+    font-size: 15px;
+    }
+
+    #youtubehere{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    #dados{
+    font-size: 12px;
+    }
+
+
+    #nomecurso{
+    font-size: 18px;
+    font-family: 'Geometos', sans-serif;
+    color: #ccccccff;
+    text-align: center;
+    }
+
+    #nomeaula{
+    font-size: 14px;
+    font-family: 'Geometos', sans-serif;
+    color: #ccccccff;
+    }
+
+    .help{
+    font-size: 12px;
+    }
+
+    #ajudamenu{
+    font-size: 15px;
+    }
+
 }
