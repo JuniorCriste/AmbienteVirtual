@@ -28,7 +28,7 @@ include('verificaaut.php');
     if(!$_SESSION['eMail']) {
     echo "<a href='pages/global/cadastro.php' target='ead'>Criar Conta</a>  &nbsp; <a href='pages/global/login.php' target='ead'><b>Entrar</b></a>";
     } else {
-    echo "Olá <a href='pages/global/perfil.php' target='ead'>" . $_SESSION['Nome'] . "</a>!"; 
+    echo "Olá <a href='pages/global/perfil.php' target='ead'>" . $_SESSION['Nome'] . "</a>! &nbsp; <a href='pages/global/fim.php'><b> Sair </b></a>"; 
     }
 ?>
 
