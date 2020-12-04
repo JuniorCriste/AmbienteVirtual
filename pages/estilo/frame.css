@@ -54,17 +54,23 @@ color: #ccccccff;
 
 #aulas{
 font-size: 20px;
-font-family: 'Geometos', sans-serif;
-color: #ccccccff;
+font-family: 'Montserrat', sans-serif;
+color: white;
+background-color: #242424;
+margin-top: 30px;
+margin-top: 30px;
+border-radius: 15px;
+padding: 20px;
 }
 
 #aulas a {
-color: #00ff66ff;
+color: white;
 text-decoration: none;
 }
 
 #aulas a:visited {
-color: #ffe680ff;
+color: white;
+font-weight: bold;
 }
 
 #g1{
