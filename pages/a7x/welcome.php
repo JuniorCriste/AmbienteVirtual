@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -34,6 +38,19 @@ No curso "Técnicas de Filmagem e Enquadramentos" você aprende de forma rápida
     <exercicio> </exercicio> <a href="teste.php">Atividade de conclusão <play></play> </a><br />
     <certificado> </certificado> Emitir seu certificado! (Liberado apenas após concluir a atividade)
 </div>
+
+
+
+<?php
+$para = $_SESSION['paralocal'];
+
+if($para == 'eduzz') {
+     $_SESSION['eduzz'] = "<p style='color: gold;'>Obrigado por adquirir nosso curso pela Eduzz! Agora faça seu <b> cadastro de aluno </b> e tenha acesso a todo conteúdo!</p>";    
+    header('Location: ../global/cadastro.php');
+}
+
+?>
+
 
 </body>
 </html>

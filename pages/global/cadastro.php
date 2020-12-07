@@ -13,6 +13,14 @@ session_start();
 <div id="preencher">
 
 <?php	
+    if(isset($_SESSION['eduzz'])){	
+    echo $_SESSION['eduzz'];	
+    unset($_SESSION['eduzz']);	
+    }	
+
+?>	
+
+<?php	
     if(isset($_SESSION['erroe'])){	
     echo $_SESSION['erroe'];	
     unset($_SESSION['erroe']);	
