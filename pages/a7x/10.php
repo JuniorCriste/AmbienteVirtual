@@ -16,7 +16,7 @@ include('verificaaut.php');
 <div id="g1">
 <div id="videoaula">
 
-<iframe id="youtubehere" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Interface" width="720" height="405" src="https://www.youtube-nocookie.com/embed/DZnMvznoao4?modestbranding=1&amp;autoplay=false&amp;rel=0&amp;iv_load_policy=3&amp;enablejsapi=1&amp;"></iframe>
+<iframe id="youtubehere" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Interface" width="720" height="405" src="https://www.youtube-nocookie.com/embed/-WF944ljxlU?modestbranding=1&amp;autoplay=false&amp;rel=0&amp;iv_load_policy=3&amp;enablejsapi=1&amp;"></iframe>
 
 </div>
 <div id="descaula">
@@ -24,7 +24,9 @@ include('verificaaut.php');
 <img src="../../img/anterior.png"></a> 
 <a href="11.php">
 <img src="../../img/proximo.png"> </a> <br/>
-Parabéns! Você chegou ao módulo bônus! Aproveite e aprenda mais sobre produção audiovisual com ferramentas de edição. 
+Parabéns! Você chegou ao módulo bônus! Aproveite e aprenda mais sobre produção audiovisual com ferramentas de edição.  <br />
+<div class="download"><a href="https://www.audacityteam.org/download/" target="_blank">Baixe o Audacity</a></div> <br /> 
+<div class="download"><a href="https://kdenlive.org/en/download/" target="_blank">Baixe o Kdenlive</a></div> <br />
 </div>
 </div>
 </body>

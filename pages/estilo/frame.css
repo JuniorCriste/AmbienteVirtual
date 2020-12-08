@@ -212,6 +212,16 @@ text-decoration: none;
 color: #ccccccff;
 }
 
+.download a{
+text-decoration: none;
+color: white;
+}
+
+.download{
+text-align: center;
+border: 2px solid white;
+}
+
 
 
 

@@ -22,6 +22,7 @@ No curso "Técnicas de Filmagem e Enquadramentos" você aprende de forma rápida
 </div>
 </div>
 <div id="aulas">
+    <livro> </livro> <a href="00.php">Introdução <play></play> </a><br />
     <livro> </livro> <a href="01.php">Dá pra usar celular como câmera? <play></play> </a><br />
     <livro> </livro> <a href="02.php">Gravação Externa <play></play> </a><br />
     <livro> </livro> <a href="03.php">Plano Geral, Grande Geral e Plano Americano <play></play> </a><br />

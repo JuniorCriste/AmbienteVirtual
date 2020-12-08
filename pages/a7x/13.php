@@ -26,6 +26,8 @@ include('verificaaut.php');
 <a href="14.php">
 <img src="../../img/proximo.png"> </a> <br/>
 Kdenlive é um software incrível de edição e produção de vídeo! Aproveite essa aula bônus e aprenda a trabalhar com ele.
+<br />
+<div class="download"><a href="https://drive.google.com/drive/folders/1VATVntHQgstUDusDZdw0kfTkB3pZ28iE?usp=sharing" target="_blank">Baixe o Material de Apoio</a></div>
 </div>
 </div>
 </body>
