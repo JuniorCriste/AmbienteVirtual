@@ -39,9 +39,8 @@ if($para == 'eduzz') {
 
     <?php
     if(!$_SESSION['eMail']) {
-   // PARA CURSOS ABERTOS echo "<a href='pages/global/cadastro.php' target='ead'>Criar Conta</a>  &nbsp; <a href='pages/global/login.php' target='ead'><b>Entrar</b></a>";
-    echo "<a href='https://sun.eduzz.com/664117' target='_blank'>Adquir</a>  &nbsp; <a href='pages/global/login.php' target='ead'><b>Entrar</b></a>";
-    } else {
+    echo "<a href='pages/global/cadastro.php' target='ead'>Criar Conta</a>  &nbsp; <a href='pages/global/login.php' target='ead'><b>Entrar</b></a>";
+      } else {
     echo "Olá <a href='pages/global/perfil.php' target='ead'>" . $_SESSION['Nome'] . "</a>! &nbsp; <a href='pages/global/fim.php'><b> Sair </b></a>"; 
     }
 ?>
