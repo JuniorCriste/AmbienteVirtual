@@ -53,5 +53,17 @@ if($para == 'eduzz') {
 ?>
 
 
+<?php
+if(!$_SESSION['endatual']){
+
+} else{
+?>
+<script type="text/javascript">
+ window.location.href = <?php echo $_SESSION[endatual] ?> ; 
+</script>
+<?php } 
+?>
+
+
 </body>
 </html>
