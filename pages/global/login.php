@@ -12,7 +12,7 @@ session_start();
 <div id="preencher">
 
 <?php	
-    echo $_SESSION[endatual];
+   // echo $_SESSION[endatual];
     if(isset($_SESSION['recado'])){	
     echo $_SESSION['recado'];	
     unset($_SESSION['recado']);	
