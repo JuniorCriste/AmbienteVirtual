@@ -19,10 +19,10 @@ include('verificaaut.php');
 if(!$_SESSION['endatual']){
 
 } else{
-echo "window.location.href = '$_SESSION[endatual]'";
-}
 ?>
-
+<javascript> window.location.href = "<?php echo $_SESSION[endatual] ?>"; </script>";
+<?php } 
+?>
 <div id="g1">
     <div id="logo">
     <a href="?">
