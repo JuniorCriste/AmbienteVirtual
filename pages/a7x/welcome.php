@@ -59,9 +59,14 @@ if(!$_SESSION['endatual']){
 } else{
 ?>
 <script type="text/javascript">
- window.location.href = <?php echo $_SESSION[endatual] ?> ; 
+ window.location.href = "<?php echo $_SESSION['endatual']; ?>" ;
+
+
 </script>
-<?php } 
+<?php }
+
+$_SESSION['endatual'] = "";
+ 
 ?>
 
 
