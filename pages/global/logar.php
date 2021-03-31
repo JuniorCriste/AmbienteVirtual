@@ -34,6 +34,6 @@ if($row == 0) {
     $_SESSION['eMail'] = $eMail;
     $_SESSION['Nome'] = $Nome;
     $_SESSION['Sobrenome'] = $Sobrenome;
-    header('Location: redirecionar.htm');
+    header('Location: redirecionar.php');
     exit();
 }

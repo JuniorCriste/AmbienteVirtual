@@ -14,6 +14,16 @@ include('verificaaut.php');
 
 </head>
 <body>
+
+<?php
+if(!$_SESSION['endatual']){
+
+} else{
+header('Location: '.$_SESSION[endatual]);
+}
+?>
+
+
 <div id="g1">
     <div id="logo">
     <a href="?">
