@@ -19,10 +19,9 @@ include('verificaaut.php');
 if(!$_SESSION['endatual']){
 
 } else{
-header('Location: '.$_SESSION[endatual]);
+echo "window.location.href = '$_SESSION[endatual]'";
 }
 ?>
-
 
 <div id="g1">
     <div id="logo">
