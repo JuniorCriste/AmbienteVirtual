@@ -1,7 +1,6 @@
 
 ##### _Por Junior Criste_
 ![](https://github.com/JuniorCriste/AmbienteVirtual/blob/main/img/prints/crud.png)
- * Acesse [aqui](https://informaticode.store/ead) | Crie um usuário e teste! 
 
  * Minhas redes e contato estão disponínveis em meu perfil.
  * Inscreva-se no [canal](https://www.youtube.com/c/informaticode?sub_confirmation=1) e siga no [Instagram](https://www.instagram.com/informaticode)
